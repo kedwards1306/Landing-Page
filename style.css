@@ -60,6 +60,10 @@ body {
 }
 
 .right .image-container {
+    background: gray;
+    color:#e5e7eb;
+    width: 450px;
+    height: 100px;
     max-width: 50%;
 }
 
