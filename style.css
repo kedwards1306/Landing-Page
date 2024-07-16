@@ -122,10 +122,8 @@ h2{
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: light;
-    padding: 18px;
+    padding: 0 18px;
     flex-direction: column;
-
-
 }
 .testimonial 
 {
@@ -134,6 +132,33 @@ h2{
 .author{
     align-self: flex-end;
 }
+.signup {
+    display: flex;
+    background: #3882f6;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    color: #F9FAF8;
+
+}
+.signup-quote{
+    flex: 1;
+    align-self: center;
+    color: #F9FAF8;
+}
+.signupbutton{
+    color:#F9FAF8;
+    background: #3882f6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    flex-shrink: 0;
+    font-weight: 400;
+    border:  light 2px;
+    padding: 0 18px;
+}
 .footer {
     background-color: #1f2937;
     color: white;
@@ -141,4 +166,5 @@ h2{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    height: 40px;
 }
